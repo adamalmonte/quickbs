@@ -1,0 +1,8 @@
+#logs
+*.log
+
+#node modules folder
+node_modules
+
+#this crap
+*.DS_Store

@@ -1,0 +1,18 @@
+{
+  "name": "quick-twbs",
+  "version": "1.0.0",
+  "description": "A package that lets you rapidly set up Twitter Bootstrap from the command line.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "twbs"
+  ],
+  "author": "Adam Almonte <adamgalmonte@gmail.com> (http://adamalmonte.com)",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "quickbs": "index.js"
+  }
+}
