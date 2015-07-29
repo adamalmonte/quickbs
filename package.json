@@ -1,7 +1,7 @@
 {
   "name": "quick-twbs",
   "version": "1.0.0",
-  "description": "A package that lets you rapidly set up Twitter Bootstrap from the command line.",
+  "description": "A package that lets you rapidly set up a Twitter Bootstrap boilerplate from the command line.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,6 +9,16 @@
     "bootstrap",
     "twbs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamalmonte/quickbs.git"
+  },
+  "bugs":{
+    "url": "https://github.com/adamalmonte/quickbs/issues"
+  },
+  "dependencies":{
+    "mkdirp": ">= 0.5.1"
+  },
   "author": "Adam Almonte <adamgalmonte@gmail.com> (http://adamalmonte.com)",
   "license": "ISC",
   "preferGlobal": true,

@@ -37,60 +37,6 @@ function generateTemplate(){
 '</html>'
 }
 
-/*
-var writeFiles = function(){
-  //File streams for the initial HTML, CSS and JS files
-  var htmlStream = fs.createWriteStream(path+'/index.html');
-  var cssStream = fs.createWriteStream(path+'/css/styles.css');
-  var jsStream = fs.createWriteStream(path+'/js/scripts.js');
-
-  //Write to the streams
-  htmlStream.once('open', function(){
-    htmlStream.end(generateTemplate());
-  });
-
-  cssStream.once('open', function(){
-    cssStream.end("");
-  });
-
-  jsStream.once('open', function(){
-    jsStream.end("");
-  });
-}
-
-var makeDirs = function(callback){
-  //create the folders
-
-  mkdirp(path+'/css/', function (err){
-    if (err) console.error("Error creating path "+path+'/css/');
-  });
-
-  mkdirp(path+'/js/', function (err){
-    if (err) console.error("Error creating path "+path+'/js/');
-  });
-
-  mkdirp(path+'/img/', function (err){
-    if (err) console.error("Error creating path "+path+'/img/');
-  });  
-
-  if (typeof callback === "function"){
-    callback();
-  }
-}
-
-var makePath = function(callback){
-  mkdirp(path, function (err){
-    if (err) console.error("Error creating path "+path);
-  });
-
-  if (typeof callback === "function"){
-    callback();
-  }
-}
-
-makePath(makeDirs(writeFiles));
-*/
-
 function createTemplate(){
   mkdirp(path, function(err){
     if (err) console.error("Error creating path" + path)
