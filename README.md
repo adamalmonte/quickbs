@@ -14,7 +14,7 @@ The npm package [mkdirp](https://github.com/substack/node-mkdirp) is a dependenc
 
 ### What gets created?
 - quickbs/ (or user-specified directory name)
-	- index.html (basic Bootstrap 3 boilerplate, directly from their site)
+	- index.html (basic Bootstrap 3 boilerplate, directly from the [Bootstrap 3 website](http://getbootstrap.com/getting-started/#template))
 	- css/
 		- styles.css (empty)
 	- js/
