@@ -1,14 +1,14 @@
 # quickbs
-Command line tool I created for personal use, to create a Bootstrap 3 boilerplate from the command line.
+A node package I created for personal use, to create a Bootstrap 3 boilerplate from the command line.
 
 ### Usage
 	> $ quickbs
 
-Will create a boilerplate in the current working directory, in a folder titled "quickbs".
+will create a boilerplate in the current working directory, in a folder titled "quickbs".
 
 	> $ quickbs *[directory name]*
 
-Will create a boilerplate in the directory specified. 
+will create a boilerplate in the directory specified. 
 
 The npm package [mkdirp](https://github.com/substack/node-mkdirp) is a dependency. This allows the user-specified directory to be created even if it is nested inside one or more directories that do not exist yet.
 
